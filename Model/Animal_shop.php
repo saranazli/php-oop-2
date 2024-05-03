@@ -2,13 +2,15 @@
 
   class AnimalShop{
 
+    public $name;
     public $price;
     public $medaglietta;
     public $hairAccessories;
 
-    public function __construct( int $_price, string $_medaglietta, string $_hairAccessories){
+    public function __construct( string $_name, int $_price, string $_medaglietta, string $_hairAccessories){
       
-      $this->price = $_price
+      $this->name = $_name;
+      $this->price = $_price;
       $this->medaglietta = $_medaglietta;
       $this->hairAccessories = $_hairAccessories;
     }
