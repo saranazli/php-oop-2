@@ -4,7 +4,8 @@
   require_once __DIR__ . '/Model/partials/Cat.php';
   require_once __DIR__ . '/Model/partials/Dog.php';
   require_once __DIR__ . '/Data/db.php';
-  
+
+  var_dump($AnimalShop);
 ?>
 
 <!DOCTYPE html>
@@ -30,6 +31,10 @@
   <title>OOP 2</title>
 </head>
 <body>
+
+<h1>
+  ciao
+</h1>
   
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php 
 
-  class Shop{
+  class AnimalShop{
 
     public $medaglietta;
     public $hairAccessories;
@@ -10,8 +10,9 @@
       $this->medaglietta = $_medaglietta;
       $this->hairAccessories = $_hairAccessories;
     }
-    
+
   }
 
+  var_dump($AnimalShop);
 
 ?>
