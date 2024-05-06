@@ -40,8 +40,11 @@
 
       <div class="card" style="width: 18rem;">
         <div class="card-body">
+          <img class="w-50" src="<?php echo $item-> getImg() ?>" alt="<?php echo $item->getName() ?>">
           <h5 class="card-title"><?php echo $item->getName() ?></h5>
           <p class="card-text"> <?php echo $item-> getPrice()?></p>
+          <p class="card-text"> <?php echo $item-> getMedaglietta()?></p>
+          <p class="card-text"> <?php echo $item-> getHair()?></p>
         </div>
       </div>
 
