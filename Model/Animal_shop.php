@@ -31,6 +31,9 @@
 
     function getPrice(){
   
+      if(!is_numeric($this->price)){
+        throw new Exception('non è un prezzo valido');
+      }
       return $this->price;
   
     }

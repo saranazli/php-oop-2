@@ -34,7 +34,7 @@
 
   <div>
 
-    <div class="container">
+    <div class="container d-flex justify-contetnt-between">
 
       <?php foreach($db as $item): ?>
 
