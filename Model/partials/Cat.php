@@ -2,6 +2,7 @@
 
   class Cat extends AnimalShop{
 
+    use Category;
     public $catHygenProducts;
     public $catDresses;
 

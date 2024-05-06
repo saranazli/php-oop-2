@@ -3,6 +3,7 @@
 
   class Dog extends AnimalShop {
 
+    use Category;
     public $toys;
     public $bones;
 
